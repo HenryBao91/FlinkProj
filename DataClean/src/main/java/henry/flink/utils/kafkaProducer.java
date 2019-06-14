@@ -18,19 +18,18 @@ public class kafkaProducer {
     public static void main(String[] args) throws Exception{
         Properties prop = new Properties();
         //指定kafka broker地址
-        prop.put("bootstrap.servers", "hadoop110:9092");
+        prop.put("bootstrap.servers", "master:9092");
         //指定key value的序列化方式
         prop.put("key.serializer", StringSerializer.class.getName());
         prop.put("value.serializer", StringSerializer.class.getName());
         //指定topic名称
-        String topic = "test";
+        String topic = "allData";
 
         //创建producer链接
         KafkaProducer<String, String> producer = new KafkaProducer<String,String>(prop);
 
+        //  生成消息数据格式：
         //{"dt":"2018-01-01 10:11:11","countryCode":"US","data":[{"type":"s1","score":0.3,"level":"A"},{"type":"s2","score":0.2,"level":"B"}]}
-
-        //生产消息
         while(true){
             String message = "{\"dt\":\""+getCurrentTime()+"\",\"countryCode\":\""+getCountryCode()+"\",\"data\":[{\"type\":\""+getRandomType()+"\",\"score\":"+getRandomScore()+",\"level\":\""+getRandomLevel()+"\"},{\"type\":\""+getRandomType()+"\",\"score\":"+getRandomScore()+",\"level\":\""+getRandomLevel()+"\"}]}";
             System.out.println(message);
@@ -52,7 +51,6 @@ public class kafkaProducer {
         int i = random.nextInt(types.length);
         return types[i];
     }
-
 
     public static String getRandomType(){
         String[] types = {"s1","s2","s3","s4","s5"};

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff6e2934-1976-48b7-9e95-4b1317fc6ad7" name="Default Changelist" comment="" />
+    <list default="true" id="ff6e2934-1976-48b7-9e95-4b1317fc6ad7" name="Default Changelist" comment="utils工具包，kafka生产者">
+      <change afterPath="$PROJECT_DIR$/DataClean/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataClean/target/classes/henry/flink/DataClean$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataClean/target/classes/henry/flink/DataClean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataClean/target/classes/henry/flink/customSource/MyRedisSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataClean/target/classes/henry/flink/utils/kafkaProducer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataClean/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/utils/kafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/utils/kafkaProducer.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/VideoFlink/target/" />
@@ -17,36 +27,45 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1512">
-              <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/customSource/MyRedisSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="55" column="69" selection-start-line="55" selection-start-column="69" selection-end-line="55" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.6137184">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="54">
+                  <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+                  <folding>
+                    <element signature="e#2227#2235#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/utils/kafkaProducer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#getCurrentTime#0;class#kafkaProducer#0" />
+                    <element signature="method#getCountryCode#0;class#kafkaProducer#0" />
+                    <element signature="method#getRandomType#0;class#kafkaProducer#0" />
+                    <element signature="method#getRandomScore#0;class#kafkaProducer#0" />
+                    <element signature="method#getRandomLevel#0;class#kafkaProducer#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,9 +77,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Jedis</find>
+      <find>github</find>
+      <find>git</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Henry" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -80,10 +106,11 @@
         <option value="$PROJECT_DIR$/VideoFlink/pom.xml" />
         <option value="$PROJECT_DIR$/DataReport/pom.xml" />
         <option value="$PROJECT_DIR$/DataReport/src/main/java/henry/flink/DataReport.java" />
-        <option value="$PROJECT_DIR$/DataClean/pom.xml" />
-        <option value="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java" />
         <option value="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/customSource/MyRedisSource.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/DataClean/pom.xml" />
+        <option value="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/utils/kafkaProducer.java" />
+        <option value="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java" />
       </list>
     </option>
   </component>
@@ -106,10 +133,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="234" />
-    <option name="width" value="1564" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="201" />
+    <option name="y" value="36" />
+    <option name="width" value="1721" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -122,7 +150,7 @@
           <expand>
             <path>
               <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="flink" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="DataClean" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
           </expand>
           <select />
@@ -139,6 +167,12 @@
               <item name="FlinkProj" type="58d84e3e:PackageViewProjectNode" />
               <item name="DataClean" type="616d4139:PackageViewModuleNode" />
               <item name="henry.flink" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="FlinkProj" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DataClean" type="616d4139:PackageViewModuleNode" />
+              <item name="henry.flink" type="1f31426a:PackageElementNode" />
+              <item name="customSource" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -162,7 +196,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DataClean/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -171,14 +205,15 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\FlinkProj\VideoFlink\src\main\java\com\watermark" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyFlink\FlinkProj\DataClean\src\main\resources" />
       <recent name="E:\FlinkProj\VideoFlink\src\main\java\com" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\FlinkProj\VideoFlink\src\main\java\com\watermark" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -193,26 +228,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="SocketDemoFullCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Streaming.SocketDemoFullCount" />
-      <module name="VideoFlink" />
+  <component name="RunManager" selected="Application.kafkaProducer">
+    <configuration name="DataClean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="henry.flink.DataClean" />
+      <module name="DataClean" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Streaming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SocketDemoIncrAgg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Streaming.SocketDemoIncrAgg" />
-      <module name="VideoFlink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Streaming.*" />
+          <option name="PATTERN" value="henry.flink.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,6 +268,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kafkaProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="henry.flink.utils.kafkaProducer" />
+      <module name="DataClean" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="henry.flink.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="cn.test.test" />
       <module name="VideoFlink" />
@@ -260,19 +295,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SocketDemoFullCount" />
-      <item itemvalue="Application.SocketDemoIncrAgg" />
       <item itemvalue="Application.StreamingWindowWatermark" />
       <item itemvalue="Application.StreamingWindowWatermark2" />
       <item itemvalue="Application.test" />
+      <item itemvalue="Application.kafkaProducer" />
+      <item itemvalue="Application.DataClean" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kafkaProducer" />
+        <item itemvalue="Application.DataClean" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.StreamingWindowWatermark" />
         <item itemvalue="Application.StreamingWindowWatermark2" />
-        <item itemvalue="Application.SocketDemoFullCount" />
-        <item itemvalue="Application.SocketDemoIncrAgg" />
       </list>
     </recent_temporary>
   </component>
@@ -299,18 +334,33 @@
       <workItem from="1560405462503" duration="36000" />
       <workItem from="1560409852985" duration="6772000" />
       <workItem from="1560473792211" duration="1787000" />
-      <workItem from="1560476660985" duration="2249000" />
+      <workItem from="1560476660985" duration="9573000" />
+      <workItem from="1560498928018" duration="4113000" />
     </task>
+    <task id="LOCAL-00001" summary="Flink 案例开发数据清理、数据报表">
+      <created>1560479156464</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560479156464</updated>
+    </task>
+    <task id="LOCAL-00002" summary="utils工具包，kafka生产者">
+      <created>1560496668030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560496668030</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69518000" />
+    <option name="totallyTimeSpent" value="80955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="234" y="0" width="1564" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16178429" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13020277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -319,13 +369,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997199" weight="0.17869823" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997199" visible="true" weight="0.3453159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32893288" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.14660831" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50028014" side_tool="true" weight="0.23710209" />
@@ -343,6 +393,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Flink 案例开发数据清理、数据报表" />
+    <MESSAGE value="utils工具包，kafka生产者" />
+    <option name="LAST_COMMIT_MESSAGE" value="utils工具包，kafka生产者" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/StreamingDemoWithMyNoPralalleSourceBroadcast.java" />
@@ -399,31 +454,11 @@
     <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/scala/cn/Flink/BatchWordCount.scala" />
     <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/DataReport.java" />
     <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/scala/cn/test/test.scala" />
-    <entry file="file://$PROJECT_DIR$/VideoFlink/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataReport/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1249">
-          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoFlink/pom.xml" />
     <entry file="file://$PROJECT_DIR$/DataReport/src/main/java/henry/flink/DataReport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataClean/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -463,32 +498,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="81">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-base_2.11/1.6.0/flink-connector-kafka-base_2.11-1.6.0-sources.jar!/org/apache/flink/streaming/util/serialization/KeyedSerializationSchema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-0.11_2.11/1.6.0/flink-connector-kafka-0.11_2.11-1.6.0-sources.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaProducer011.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="408" column="22" selection-start-line="408" selection-start-column="22" selection-end-line="408" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataReport/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="-847">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataClean/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/customSource/MyRedisSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="55" column="69" selection-start-line="55" selection-start-column="69" selection-end-line="55" selection-end-column="69" />
+        <state relative-caret-position="-1105">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataClean/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.6.0/flink-streaming-java_2.11-1.6.0-sources.jar!/org/apache/flink/streaming/api/datastream/DataStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="409" column="25" selection-start-line="409" selection-start-column="25" selection-end-line="409" selection-end-column="25" />
+          <folding>
+            <element signature="e#17273#17274#0" expanded="true" />
+            <element signature="e#17335#17336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/utils/kafkaProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getCurrentTime#0;class#kafkaProducer#0" />
+            <element signature="method#getCountryCode#0;class#kafkaProducer#0" />
+            <element signature="method#getRandomType#0;class#kafkaProducer#0" />
+            <element signature="method#getRandomScore#0;class#kafkaProducer#0" />
+            <element signature="method#getRandomLevel#0;class#kafkaProducer#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+        <state relative-caret-position="54">
+          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+          <folding>
+            <element signature="e#2227#2235#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
