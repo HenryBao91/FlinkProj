@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff6e2934-1976-48b7-9e95-4b1317fc6ad7" name="Default Changelist" comment="utils工具包，kafka生产者">
-      <change afterPath="$PROJECT_DIR$/DataClean/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataClean/target/classes/henry/flink/DataClean$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataClean/target/classes/henry/flink/DataClean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataClean/target/classes/henry/flink/customSource/MyRedisSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataClean/target/classes/henry/flink/utils/kafkaProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataClean/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/utils/kafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/utils/kafkaProducer.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff6e2934-1976-48b7-9e95-4b1317fc6ad7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/VideoFlink/target/" />
@@ -33,8 +23,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="54">
-                  <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+                <state relative-caret-position="297">
+                  <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
                   <folding>
                     <element signature="e#2227#2235#0" expanded="true" />
                   </folding>
@@ -145,17 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="DataClean" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -335,7 +315,7 @@
       <workItem from="1560409852985" duration="6772000" />
       <workItem from="1560473792211" duration="1787000" />
       <workItem from="1560476660985" duration="9573000" />
-      <workItem from="1560498928018" duration="4113000" />
+      <workItem from="1560498928018" duration="4407000" />
     </task>
     <task id="LOCAL-00001" summary="Flink 案例开发数据清理、数据报表">
       <created>1560479156464</created>
@@ -351,11 +331,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560496668030</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="通过广播变量避免丢失数据">
+      <created>1560503161745</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560503161745</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80955000" />
+    <option name="totallyTimeSpent" value="81249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -369,13 +356,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997199" visible="true" weight="0.3453159" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997199" weight="0.3453159" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.14660831" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3017429" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50028014" side_tool="true" weight="0.23710209" />
@@ -397,7 +384,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Flink 案例开发数据清理、数据报表" />
     <MESSAGE value="utils工具包，kafka生产者" />
-    <option name="LAST_COMMIT_MESSAGE" value="utils工具包，kafka生产者" />
+    <MESSAGE value="通过广播变量避免丢失数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="通过广播变量避免丢失数据" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/StreamingDemoWithMyNoPralalleSourceBroadcast.java" />
@@ -585,8 +573,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+        <state relative-caret-position="297">
+          <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
           <folding>
             <element signature="e#2227#2235#0" expanded="true" />
           </folding>
