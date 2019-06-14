@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff6e2934-1976-48b7-9e95-4b1317fc6ad7" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/VideoFlink/target/" />
+    <ignored path="$PROJECT_DIR$/DataReport/target/" />
+    <ignored path="$PROJECT_DIR$/DataClean/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1512">
+              <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/customSource/MyRedisSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1296">
+              <caret line="55" column="69" selection-start-line="55" selection-start-column="69" selection-end-line="55" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Jedis</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/VideoFlink/src/main/java/com/StreamingDemoWithMyNoPralalleSourceBroadcast.java" />
+        <option value="$PROJECT_DIR$/VideoFlink/src/main/java/com/Streaming/SocketDemoFullCount.java" />
+        <option value="$PROJECT_DIR$/VideoFlink/src/main/java/com/Streaming/SocketDemoIncrAgg.java" />
+        <option value="$PROJECT_DIR$/VideoFlink/src/main/java/com/watermark/StreamWindowWatermark2.java" />
+        <option value="$PROJECT_DIR$/VideoFlink/src/main/java/com/watermark/StreamingWindowWatermark2.java" />
+        <option value="$PROJECT_DIR$/VideoFlink/src/main/java/com/watermark/StreamingWindowWatermark.java" />
+        <option value="$PROJECT_DIR$/VideoFlink/src/main/scala/cn/Flink/ExecutionEnvironment.scala" />
+        <option value="$PROJECT_DIR$/VideoFlink/src/main/scala/cn/Flink/BatchDemoBroadcastScala.scala" />
+        <option value="$PROJECT_DIR$/VideoFlink/src/main/scala/cn/test/test.scala" />
+        <option value="$PROJECT_DIR$/VideoFlink/src/main/scala/cn/Flink/BatchWordCount.scala" />
+        <option value="$PROJECT_DIR$/VideoFlink/src/main/java/com/DataReport.java" />
+        <option value="$PROJECT_DIR$/VideoFlink/pom.xml" />
+        <option value="$PROJECT_DIR$/DataReport/pom.xml" />
+        <option value="$PROJECT_DIR$/DataReport/src/main/java/henry/flink/DataReport.java" />
+        <option value="$PROJECT_DIR$/DataClean/pom.xml" />
+        <option value="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java" />
+        <option value="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/customSource/MyRedisSource.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\SoftWare\Java\Maven3.6.1\repository" />
+        <option name="userSettingsFile" value="D:\SoftWare\Java\Maven3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="234" />
+    <option name="width" value="1564" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="flink" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FlinkProj" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DataClean" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="FlinkProj" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DataClean" type="616d4139:PackageViewModuleNode" />
+              <item name="henry.flink" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FlinkProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkProj" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2372035" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\FlinkProj\VideoFlink\src\main\java\com\watermark" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\FlinkProj\VideoFlink\src\main\java\com" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.test">
+    <configuration name="SocketDemoFullCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Streaming.SocketDemoFullCount" />
+      <module name="VideoFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketDemoIncrAgg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Streaming.SocketDemoIncrAgg" />
+      <module name="VideoFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamingWindowWatermark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watermark.StreamingWindowWatermark" />
+      <module name="VideoFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.watermark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamingWindowWatermark2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watermark.StreamingWindowWatermark2" />
+      <module name="VideoFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.watermark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="cn.test.test" />
+      <module name="VideoFlink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SocketDemoFullCount" />
+      <item itemvalue="Application.SocketDemoIncrAgg" />
+      <item itemvalue="Application.StreamingWindowWatermark" />
+      <item itemvalue="Application.StreamingWindowWatermark2" />
+      <item itemvalue="Application.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.StreamingWindowWatermark" />
+        <item itemvalue="Application.StreamingWindowWatermark2" />
+        <item itemvalue="Application.SocketDemoFullCount" />
+        <item itemvalue="Application.SocketDemoIncrAgg" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff6e2934-1976-48b7-9e95-4b1317fc6ad7" name="Default Changelist" comment="" />
+      <created>1559616139292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559616139292</updated>
+      <workItem from="1559616142319" duration="7901000" />
+      <workItem from="1559697596401" duration="18748000" />
+      <workItem from="1559783723290" duration="19805000" />
+      <workItem from="1560128671985" duration="478000" />
+      <workItem from="1560129163784" duration="599000" />
+      <workItem from="1560214302284" duration="606000" />
+      <workItem from="1560233855955" duration="608000" />
+      <workItem from="1560319840600" duration="1401000" />
+      <workItem from="1560387957911" duration="7453000" />
+      <workItem from="1560404378327" duration="1075000" />
+      <workItem from="1560405462503" duration="36000" />
+      <workItem from="1560409852985" duration="6772000" />
+      <workItem from="1560473792211" duration="1787000" />
+      <workItem from="1560476660985" duration="2249000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="69518000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="234" y="0" width="1564" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16178429" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997199" weight="0.17869823" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32893288" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50028014" side_tool="true" weight="0.23710209" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32871535" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.12818918" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/StreamingDemoWithMyNoPralalleSourceBroadcast.java" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/BatchDemoBroadcast.java" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/MyNoParalleSource.java" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/ConsumerKafka.java" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/BatchWordCount.java" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/BatchDemoCounter.java" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/MyAggFunction.java" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/SocketWindowWordCount.java" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/MyWatermark.java" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/Streaming/SocketDemoFullCount.java" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/Streaming/SocketDemoIncrAgg.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.6.0/flink-streaming-java_2.11-1.6.0.jar!/org/apache/flink/streaming/api/windowing/windows/TimeWindow.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-streaming-java_2.11/1.6.0/flink-streaming-java_2.11-1.6.0-sources.jar!/org/apache/flink/streaming/api/windowing/windows/TimeWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-core/1.6.0/flink-core-1.6.0.jar!/org/apache/flink/api/java/tuple/Tuple.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/flink/flink-core/1.6.0/flink-core-1.6.0-sources.jar!/org/apache/flink/api/java/tuple/Tuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/watermark/StreamingWindowWatermark2.java" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/scala/cn/Flink/ExecutionEnvironment.scala" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/scala/cn/Flink/SocketWindowWordCount.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-scala_2.11/1.6.0/flink-scala_2.11-1.6.0-sources.jar!/org/apache/flink/api/scala/ExecutionEnvironment.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/watermark/StreamingWindowWatermark.java" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/scala/cn/Flink/BatchDemoBroadcastScala.scala" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/scala/cn/Flink/BatchWordCount.scala" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/DataReport.java" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/scala/cn/test/test.scala" />
+    <entry file="file://$PROJECT_DIR$/VideoFlink/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataReport/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1249">
+          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataReport/src/main/java/henry/flink/DataReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataClean/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/Jedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="844" column="29" selection-start-line="844" selection-start-column="29" selection-end-line="844" selection-end-column="29" />
+          <folding>
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/exceptions/JedisConnectionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/SoftWare/Java/jdk1.8.0/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1084">
+          <caret line="383" column="16" selection-start-line="383" selection-start-column="10" selection-end-line="383" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/customSource/MyRedisSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="55" column="69" selection-start-line="55" selection-start-column="69" selection-end-line="55" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2372035" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2372035" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2372035" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2372035" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>VideoFlink</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2372035" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.8.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2372035" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
