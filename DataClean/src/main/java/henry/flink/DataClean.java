@@ -63,7 +63,7 @@ public class DataClean {
         //  由于对应关系可能会变，所以隔一段时间从 Redis 取一次最新对应关系
         //  mapData 中存储最新的国家码和大区的映射关系
         DataStream<HashMap<String,String>> mapData = env.addSource(new MyRedisSource())
-                .broadcast();    //  可以把数据发送到后面算子的所有并行实际例中进行计算
+                .broadcast();    //  可以把数据发送到后面算子的所有并行实际例中进行计算，否则处理数据不全正确
 
         //  通过 connect 方法将两个数据流连接在一起,然后再flatMap
         DataStream<String> resData = data.connect(mapData).flatMap(
