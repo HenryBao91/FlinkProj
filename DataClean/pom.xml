@@ -48,11 +48,6 @@
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-kafka-0.11_${scala.version}</artifactId>
         </dependency>
-        <!-- flink-hbase 依赖 -->
-        <dependency>
-            <groupId>org.apache.flink</groupId>
-            <artifactId>flink-hbase_${scala.version}</artifactId>
-        </dependency>
 
         <!-- flink redis 依赖 -->
         <dependency>
