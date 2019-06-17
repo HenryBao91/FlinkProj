@@ -52,7 +52,7 @@ public class DataClean {
                 CheckpointConfig.ExternalizedCheckpointCleanup.RETAIN_ON_CANCELLATION);
 
         //设置statebackend
-        //env.setStateBackend(new RocksDBStateBackend("hdfs://master:9000/flink/checkpoints",true));
+        env.setStateBackend(new RocksDBStateBackend("hdfs://master:9000/flink/checkpoints",true));
 
         //  指定 Kafka Source
         String topic = "allData";
