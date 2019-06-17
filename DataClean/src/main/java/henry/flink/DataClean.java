@@ -24,6 +24,11 @@ import java.util.Properties;
  * @Author: Henry
  * @Description: 数据清洗需要
  *          组装代码
+ *
+ *  创建kafka topic命令：
+ *      ./kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 5 --topic allData
+ *      ./kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 5 --topic allDataClean
+ *
  * @Date: Create in 2019/5/25 17:47
  **/
 public class DataClean {
@@ -34,13 +39,17 @@ public class DataClean {
 
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
+        // 修改并行度
+        env.setParallelism(5);
+
         //checkpoint配置
         env.enableCheckpointing(60000);  // 设置 1分钟=60秒
         env.getCheckpointConfig().setCheckpointingMode(CheckpointingMode.EXACTLY_ONCE);
         env.getCheckpointConfig().setMinPauseBetweenCheckpoints(30000);
         env.getCheckpointConfig().setCheckpointTimeout(10000);
         env.getCheckpointConfig().setMaxConcurrentCheckpoints(1);
-        env.getCheckpointConfig().enableExternalizedCheckpoints(CheckpointConfig.ExternalizedCheckpointCleanup.RETAIN_ON_CANCELLATION);
+        env.getCheckpointConfig().enableExternalizedCheckpoints(
+                CheckpointConfig.ExternalizedCheckpointCleanup.RETAIN_ON_CANCELLATION);
 
         //设置statebackend
         //env.setStateBackend(new RocksDBStateBackend("hdfs://master:9000/flink/checkpoints",true));
@@ -55,7 +64,7 @@ public class DataClean {
 
         //  获取 Kafka 中的数据，Kakfa 数据格式如下：
         //  {"dt":"2019-01-01 11:11:11", "countryCode":"US","data":[{"type":"s1","score":0.3},{"type":"s1","score":0.3}]}
-        DataStreamSource<String> data = env.addSource(myConsumer);
+        DataStreamSource<String> data = env.addSource(myConsumer);    // 并行度根据 kafka topic partition数设定
 
         //  对数据打平需要对 大区和国家之间的关系进行转换，由于存在对应关系变的可能性，所以不能写死
         //  处理方法：再添加一个Source，把国家和大区之间的关系存到redis数据库中
