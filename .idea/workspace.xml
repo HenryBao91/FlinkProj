@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff6e2934-1976-48b7-9e95-4b1317fc6ad7" name="Default Changelist" comment="通过广播变量避免丢失数据">
+    <list default="true" id="ff6e2934-1976-48b7-9e95-4b1317fc6ad7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataClean/src/main/scala/bao/flink/DataCleanS.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataClean/src/main/scala/bao/flink/customSource/MyRedisSourceS.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataClean/target/classes/henry/flink/DataClean$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataClean/target/classes/henry/flink/DataClean$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataClean/target/classes/henry/flink/DataClean.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataClean/target/classes/henry/flink/DataClean.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,12 +22,44 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataClean/src/main/scala/bao/flink/DataCleanS.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+              <folding>
+                <element signature="e#19#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/customSource/MyRedisSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Scala Object" />
       </list>
     </option>
   </component>
@@ -75,6 +107,9 @@
         <option value="$PROJECT_DIR$/DataReport/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java" />
+        <option value="$PROJECT_DIR$/DataClean/src/main/scala/bao/flink/DataClean.scala" />
+        <option value="$PROJECT_DIR$/DataClean/src/main/scala/bao/flink/customSource/MyRedisSourceS.scala" />
+        <option value="$PROJECT_DIR$/DataClean/src/main/scala/bao/flink/DataCleanS.scala" />
       </list>
     </option>
   </component>
@@ -98,61 +133,36 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="110" />
-    <option name="width" value="1691" />
+    <option name="x" value="229" />
+    <option name="y" value="4" />
+    <option name="width" value="1478" />
     <option name="height" value="1047" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="PackagesPane">
+        <subPane>
           <expand>
             <path>
-              <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="DataClean" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="FlinkProj" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DataClean" type="616d4139:PackageViewModuleNode" />
             </path>
             <path>
-              <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="DataClean" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="FlinkProj" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DataClean" type="616d4139:PackageViewModuleNode" />
+              <item name="henry.flink" type="1f31426a:PackageElementNode" />
             </path>
             <path>
-              <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="DataClean" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="DataClean" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="DataClean" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="henry" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="DataClean" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="henry" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="flink" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="flink" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="FlinkProj" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DataClean" type="616d4139:PackageViewModuleNode" />
+              <item name="henry.flink" type="1f31426a:PackageElementNode" />
+              <item name="customSource" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -208,7 +218,34 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="customSource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkProj" type="462c0819:PsiDirectoryNode" />
+              <item name="DataClean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkProj" type="462c0819:PsiDirectoryNode" />
+              <item name="DataClean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkProj" type="462c0819:PsiDirectoryNode" />
+              <item name="DataClean" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="customSource" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FlinkProj" type="b2602c69:ProjectViewProjectNode" />
@@ -219,23 +256,51 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="FlinkProj" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DataClean" type="616d4139:PackageViewModuleNode" />
+              <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="DataClean" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="FlinkProj" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DataClean" type="616d4139:PackageViewModuleNode" />
-              <item name="henry.flink" type="1f31426a:PackageElementNode" />
+              <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="DataClean" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="FlinkProj" type="58d84e3e:PackageViewProjectNode" />
-              <item name="DataClean" type="616d4139:PackageViewModuleNode" />
-              <item name="henry.flink" type="1f31426a:PackageElementNode" />
-              <item name="customSource" type="1f31426a:PackageElementNode" />
+              <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="DataClean" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="DataClean" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="DataClean" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="henry" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="DataClean" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="henry" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="flink" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="flink" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
           </expand>
           <select />
@@ -364,6 +429,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ScalaProjectSettings">
+    <option name="dontShowConversionDialog" value="true" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -389,7 +457,8 @@
       <workItem from="1560473792211" duration="1787000" />
       <workItem from="1560476660985" duration="9573000" />
       <workItem from="1560498928018" duration="6844000" />
-      <workItem from="1560733460401" duration="8513000" />
+      <workItem from="1560733460401" duration="12365000" />
+      <workItem from="1560820751238" duration="5777000" />
     </task>
     <task id="LOCAL-00001" summary="Flink 案例开发数据清理、数据报表">
       <created>1560479156464</created>
@@ -454,16 +523,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560753907943</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="设置 checkpoint">
+      <created>1560756672534</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560756672534</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92199000" />
+    <option name="totallyTimeSpent" value="101828000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="110" y="0" width="1691" height="1047" extended-state="0" />
+    <frame x="229" y="4" width="1618" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17065684" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18059126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -472,7 +549,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997199" visible="true" weight="0.34433442" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997199" weight="0.2519252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -545,7 +622,8 @@
     <MESSAGE value="通过广播变量避免丢失数据" />
     <MESSAGE value="修改打包pom文件内容" />
     <MESSAGE value="注释创建kafka topic命令，设置全局并行度" />
-    <option name="LAST_COMMIT_MESSAGE" value="注释创建kafka topic命令，设置全局并行度" />
+    <MESSAGE value="设置 checkpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="设置 checkpoint" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/StreamingDemoWithMyNoPralalleSourceBroadcast.java" />
@@ -670,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/customSource/MyRedisSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1105">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataClean/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -731,10 +802,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DataClean/src/main/scala/DataClean.scala" />
+    <entry file="file://$PROJECT_DIR$/DataClean/src/main/scala/bao/flink/customSource/MyRedisSourceS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+          <folding>
+            <element signature="e#33#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/customSource/MyRedisSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataClean/src/main/java/henry/flink/DataClean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="54" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+        <state relative-caret-position="462">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataClean/src/main/scala/bao/flink/DataCleanS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+          <folding>
+            <element signature="e#19#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -791,7 +890,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>VideoFlink</last-edited>
+          <last-edited>DataClean</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
