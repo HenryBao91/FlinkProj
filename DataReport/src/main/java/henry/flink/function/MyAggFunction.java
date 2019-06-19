@@ -27,38 +27,39 @@ import java.util.Iterator;
  *         Window： TimeWindow
  *@返回值 :
  */
-public class MyAggFunction implements WindowFunction<Tuple3<Long, String, String>,
-        Tuple4<String, String, String, Long>, Tuple, TimeWindow> {
-
+public class MyAggFunction implements WindowFunction<Tuple3<Long, String, String>, Tuple4<String, String, String, Long>, Tuple, TimeWindow>{
     @Override
-    public void apply(Tuple tuple, TimeWindow window,
+    public void apply(Tuple tuple,
+                      TimeWindow window,
                       Iterable<Tuple3<Long, String, String>> input,
-                      Collector<Tuple4<String, String, String, Long>> out) throws Exception {
-        //  获取分组字段信息
-        String type = tuple.getField(0).toString(); // type
-        String area = tuple.getField(1).toString(); // area
+                      Collector<Tuple4<String, String, String, Long>> out)
+            throws Exception {
+        //获取分组字段信息
+        String type = tuple.getField(0).toString();
+        String area = tuple.getField(1).toString();
 
         Iterator<Tuple3<Long, String, String>> it = input.iterator();
 
-        //  存储时间，为了获取最后一条数据的时间
+        //存储时间，为了获取最后一条数据的时间
         ArrayList<Long> arrayList = new ArrayList<>();
 
-        long count = 0;     // 统计数量
+        long count = 0;
         while (it.hasNext()) {
             Tuple3<Long, String, String> next = it.next();
             arrayList.add(next.f0);
             count++;
         }
 
-        System.err.println(Thread.currentThread().getId() + ", window 触发了，数据条数：" + count);
+        System.err.println(Thread.currentThread().getId()+",window触发了，数据条数："+count);
 
-        //  排序，默认正序
+        //排序，默认正排
         Collections.sort(arrayList);
 
-        SimpleDateFormat sdf = new SimpleDateFormat("YYYY MM dd HH:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
         String time = sdf.format(new Date(arrayList.get(arrayList.size() - 1)));
 
-        //  组装结果
+        //组装结果
         Tuple4<String, String, String, Long> res = new Tuple4<>(time, type, area, count);
 
         out.collect(res);

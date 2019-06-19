@@ -1,0 +1,4 @@
+henry\flink\utils\kafkaProducer.class
+henry\flink\customSource\MyRedisSource.class
+henry\flink\DataClean.class
+henry\flink\DataClean$1.class

@@ -17,7 +17,7 @@ import org.apache.flink.util.Collector
 import scala.collection.mutable
 
 /**
-  * @Author: HongZhen
+  * @Author: Henry
   * @Description: ${description}
   * @Date: Create in 2019/6/17 15:36
   **/

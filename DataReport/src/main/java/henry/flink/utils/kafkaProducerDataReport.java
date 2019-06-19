@@ -39,7 +39,7 @@ public class kafkaProducerDataReport {
             String message = "{\"dt\":\""+getCurrentTime()+"\",\"type\":\""+getRandomType()+"\",\"username\":\""+getRandomUsername()+"\",\"area\":\""+getRandomArea()+"\"}";
             System.out.println(message);
             producer.send(new ProducerRecord<String, String>(topic,message));
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         }
         //关闭链接
         //producer.close();
@@ -57,14 +57,12 @@ public class kafkaProducerDataReport {
         return types[i];
     }
 
-
     public static String getRandomType(){
         String[] types = {"shelf","unshelf","black","chlid_shelf","child_unshelf"};
         Random random = new Random();
         int i = random.nextInt(types.length);
         return types[i];
     }
-
 
     public static String getRandomUsername(){
         String[] types = {"shenhe1","shenhe2","shenhe3","shenhe4","shenhe5"};

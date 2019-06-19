@@ -15,7 +15,8 @@ import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer011;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer011;
 import org.apache.flink.streaming.util.serialization.KeyedSerializationSchemaWrapper;
 import org.apache.flink.util.Collector;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.HashMap;
 import java.util.Properties;
@@ -33,7 +34,7 @@ import java.util.Properties;
  **/
 public class DataClean {
 
-    Logger logger = Logger.getLogger(this.getClass()); //log.info() 调用
+    private static Logger logger = LoggerFactory.getLogger(DataClean.class); //log.info() 调用
 
     public static void main(String[] args) throws Exception{
 

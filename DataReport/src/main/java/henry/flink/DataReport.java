@@ -72,14 +72,15 @@ public class DataReport {
         //设置statebackend
         //env.setStateBackend(new RocksDBStateBackend("hdfs://master:9000/flink/checkpoints",true));
 
+        //  指定 Kafka Source
         //  配置 kafkaSource
         String topic = "auditLog";     // 审核日志
         Properties prop = new Properties();
-        prop.setProperty("bootstrap.servers","master:9092");
-        prop.setProperty("group.id","con2");
+        prop.setProperty("bootstrap.servers", "master:9092");
+        prop.setProperty("group.id", "con1");
 
-        FlinkKafkaConsumer011<String> myConsumer = new FlinkKafkaConsumer011<>(
-                topic, new SimpleStringSchema(), prop);
+        FlinkKafkaConsumer011<String> myConsumer = new FlinkKafkaConsumer011<String>(
+                topic, new SimpleStringSchema(),prop);
 
        /*
        *    获取到kafka的数据
@@ -107,7 +108,6 @@ public class DataReport {
                     //也可以把这个日志存储到其他介质中
                     logger.error("时间解析异常，dt:" + dt, e.getCause());
                 }
-
                 String type = jsonObject.getString("type");
                 String area = jsonObject.getString("area");
 
