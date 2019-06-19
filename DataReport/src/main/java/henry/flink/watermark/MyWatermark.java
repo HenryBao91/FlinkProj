@@ -1,4 +1,4 @@
-package henry.flink.function.watermark;
+package henry.flink.watermark;
 
 import org.apache.flink.streaming.api.functions.AssignerWithPeriodicWatermarks;
 import org.apache.flink.api.java.tuple.Tuple3;
@@ -7,7 +7,7 @@ import org.apache.flink.streaming.api.watermark.Watermark;
 import javax.annotation.Nullable;
 
 /**
- * @Author: HongZhen
+ * @Author: Henry
  * @Description: 自定义Watermark
  * @Date: Create in 2019/5/29 11:53
  **/

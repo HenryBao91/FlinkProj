@@ -28,13 +28,12 @@ public class kafkaProducerDataReport {
         prop.put("key.serializer", StringSerializer.class.getName());
         prop.put("value.serializer", StringSerializer.class.getName());
         //指定topic名称
-        String topic = "allData";
+        String topic = "auditLog";
 
         //创建producer链接
         KafkaProducer<String, String> producer = new KafkaProducer<String,String>(prop);
 
         //{"dt":"2018-01-01 10:11:22","type":"shelf","username":"shenhe1","area":"AREA_US"}
-
         //生产消息
         while(true){
             String message = "{\"dt\":\""+getCurrentTime()+"\",\"type\":\""+getRandomType()+"\",\"username\":\""+getRandomUsername()+"\",\"area\":\""+getRandomArea()+"\"}";
@@ -73,6 +72,5 @@ public class kafkaProducerDataReport {
         int i = random.nextInt(types.length);
         return types[i];
     }
-
 
 }
