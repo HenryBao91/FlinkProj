@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff6e2934-1976-48b7-9e95-4b1317fc6ad7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataClean/target/classes/henry/flink/DataClean.class" beforeDir="false" afterPath="$PROJECT_DIR$/DataClean/target/classes/henry/flink/DataClean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataReport/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DataReport/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataReport/src/main/java/henry/flink/DataReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataReport/src/main/java/henry/flink/DataReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataReport/src/main/java/henry/flink/function/MyAggFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataReport/src/main/java/henry/flink/function/MyAggFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataReport/src/main/java/henry/flink/utils/kafkaProducerDataReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataReport/src/main/java/henry/flink/utils/kafkaProducerDataReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataReport/src/main/java/henry/flink/watermark/MyWatermark.java" beforeDir="false" afterPath="$PROJECT_DIR$/DataReport/src/main/java/henry/flink/watermark/MyWatermark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataReport/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/DataReport/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -28,46 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataReport/src/main/java/henry/flink/DataReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3919">
-              <caret line="197" column="74" lean-forward="true" selection-start-line="197" selection-start-column="74" selection-end-line="197" selection-end-column="74" />
-              <folding>
-                <element signature="e#4075#4962#0" expanded="true" />
-                <element signature="e#4961#4962#0" expanded="true" />
-                <element signature="e#5099#5441#0" expanded="true" />
-                <element signature="e#5440#5441#0" expanded="true" />
-                <element signature="e#6389#6397#0" expanded="true" />
-                <element signature="e#6654#6903#0" expanded="true" />
-                <element signature="e#6902#6903#0" expanded="true" />
-                <element signature="e#7479#7517#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataReport/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataReport/src/main/java/henry/flink/utils/kafkaProducerDataReport.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="39" column="30" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="30" />
-              <folding>
-                <element signature="e#1081#1096#0" expanded="true" />
-                <element signature="method#getCurrentTime#0;class#kafkaProducerDataReport#0" />
-                <element signature="method#getRandomArea#0;class#kafkaProducerDataReport#0" />
-                <element signature="method#getRandomType#0;class#kafkaProducerDataReport#0" />
-                <element signature="method#getRandomUsername#0;class#kafkaProducerDataReport#0" />
-              </folding>
+              <caret line="146" lean-forward="true" selection-start-line="142" selection-start-column="27" selection-end-line="142" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="79" column="25" lean-forward="true" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -96,8 +66,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Henry &lt;41034271+henrybao91@users.noreply.github.com&gt;" />
         <option value="Henry" />
+        <option value="Henry &lt;41034271+henrybao91@users.noreply.github.com&gt;" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -131,13 +101,14 @@
         <option value="$PROJECT_DIR$/DataClean/src/main/scala/bao/flink/customSource/MyRedisSourceS.scala" />
         <option value="$PROJECT_DIR$/DataClean/src/main/scala/bao/flink/DataCleanS.scala" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/DataReport/pom.xml" />
         <option value="$PROJECT_DIR$/DataReport/src/main/java/henry/flink/watermark/MyWatermark.java" />
         <option value="$PROJECT_DIR$/DataReport/src/main/java/henry/flink/function/MyAggFunction.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/DataReport/src/main/java/henry/flink/utils/kafkaProducerDataReport.java" />
-        <option value="$PROJECT_DIR$/DataReport/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/DataReport/src/main/java/henry/flink/DataReport.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/DataReport/pom.xml" />
+        <option value="E:/学习资料/Flink/Flink下/FlinkExample/src/main/scala/xuwei/tech/streaming/StreamingKafkaSinkScala.scala" />
+        <option value="$PROJECT_DIR$/DataReport/src/main/resources/log4j.properties" />
       </list>
     </option>
   </component>
@@ -161,9 +132,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="251" />
-    <option name="y" value="7" />
-    <option name="width" value="1536" />
+    <option name="x" value="37" />
+    <option name="width" value="1817" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -191,43 +161,6 @@
               <item name="DataClean" type="616d4139:PackageViewModuleNode" />
               <item name="henry.flink" type="1f31426a:PackageElementNode" />
               <item name="customSource" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="FlinkProj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlinkProj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlinkProj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlinkProj" type="462c0819:PsiDirectoryNode" />
-              <item name="DataReport" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlinkProj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlinkProj" type="462c0819:PsiDirectoryNode" />
-              <item name="DataReport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlinkProj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlinkProj" type="462c0819:PsiDirectoryNode" />
-              <item name="DataReport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlinkProj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlinkProj" type="462c0819:PsiDirectoryNode" />
-              <item name="DataReport" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,6 +211,43 @@
             <path>
               <item name="FlinkProj" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="flink" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FlinkProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkProj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkProj" type="462c0819:PsiDirectoryNode" />
+              <item name="DataReport" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkProj" type="462c0819:PsiDirectoryNode" />
+              <item name="DataReport" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkProj" type="462c0819:PsiDirectoryNode" />
+              <item name="DataReport" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkProj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlinkProj" type="462c0819:PsiDirectoryNode" />
+              <item name="DataReport" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -437,7 +407,8 @@
       <workItem from="1560498928018" duration="6844000" />
       <workItem from="1560733460401" duration="12365000" />
       <workItem from="1560820751238" duration="12245000" />
-      <workItem from="1560906621340" duration="11470000" />
+      <workItem from="1560906621340" duration="11818000" />
+      <workItem from="1560932274747" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="Flink 案例开发数据清理、数据报表">
       <created>1560479156464</created>
@@ -523,17 +494,31 @@
       <option name="project" value="LOCAL" />
       <updated>1560846914998</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="更新 DataClean 部分运行说明">
+      <created>1560930283326</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560930283326</updated>
+    </task>
+    <task id="LOCAL-00014" summary="更新 DataReport 部分代码">
+      <created>1560930348793</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1560930348793</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119766000" />
+    <option name="totallyTimeSpent" value="120806000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="251" y="7" width="1536" height="1047" extended-state="0" />
+    <frame x="359" y="0" width="1495" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1981004" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20655966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -552,7 +537,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32893288" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50028014" side_tool="true" weight="0.23710209" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49944136" weight="0.3278328" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.5005587" side_tool="true" visible="true" weight="0.3410341" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.5005587" side_tool="true" visible="true" weight="0.2849285" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -618,7 +603,8 @@
     <MESSAGE value="设置 checkpoint" />
     <MESSAGE value="增加 DataClean 模块 Scala 代码的实现" />
     <MESSAGE value="更新 DataClean 部分运行说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新 DataClean 部分运行说明" />
+    <MESSAGE value="更新 DataReport 部分代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新 DataReport 部分代码" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/VideoFlink/src/main/java/com/StreamingDemoWithMyNoPralalleSourceBroadcast.java" />
@@ -762,9 +748,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Flume使用Hive作为Sink总结 - 赶路人儿 - CSDN博客.url">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Flume使用Hive作为Sink总结 - 赶路人儿 - CSDN博客.url" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -785,13 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataReport/src/main/java/henry/flink/function/MyAggFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataReport/src/main/java/henry/flink/watermark/MyWatermark.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -803,20 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataReport/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1296">
-          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -845,17 +808,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataReport/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataReport/src/main/java/henry/flink/utils/kafkaProducerDataReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="30" />
+        <state relative-caret-position="297">
+          <caret line="33" column="66" lean-forward="true" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
           <folding>
             <element signature="e#1081#1096#0" expanded="true" />
             <element signature="method#getCurrentTime#0;class#kafkaProducerDataReport#0" />
@@ -866,20 +822,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/学习资料/Flink/Flink下/FlinkExample/src/main/scala/xuwei/tech/streaming/StreamingKafkaSinkScala.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataReport/src/main/java/henry/flink/function/MyAggFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataReport/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataReport/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataReport/src/main/java/henry/flink/DataReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3919">
-          <caret line="197" column="74" lean-forward="true" selection-start-line="197" selection-start-column="74" selection-end-line="197" selection-end-column="74" />
-          <folding>
-            <element signature="e#4075#4962#0" expanded="true" />
-            <element signature="e#4961#4962#0" expanded="true" />
-            <element signature="e#5099#5441#0" expanded="true" />
-            <element signature="e#5440#5441#0" expanded="true" />
-            <element signature="e#6389#6397#0" expanded="true" />
-            <element signature="e#6654#6903#0" expanded="true" />
-            <element signature="e#6902#6903#0" expanded="true" />
-            <element signature="e#7479#7517#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="146" lean-forward="true" selection-start-line="142" selection-start-column="27" selection-end-line="142" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="79" column="25" lean-forward="true" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
         </state>
       </provider>
     </entry>

@@ -72,7 +72,7 @@
         <!-- slf4j 日志管理依赖 -->
         <dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-nop</artifactId>
+            <artifactId>slf4j-log4j12</artifactId>
         </dependency>
         <!-- log4j 输出log依赖 -->
         <dependency>

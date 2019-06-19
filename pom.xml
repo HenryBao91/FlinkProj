@@ -111,15 +111,18 @@
             <!-- slf4j 日志管理依赖 -->
             <dependency>
                 <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-nop</artifactId>
-                <version>1.7.2</version>
+                <artifactId>slf4j-log4j12</artifactId>
+                <version>1.7.7</version>
+                <scope>runtime</scope>
             </dependency>
             <!-- log4j 输出log依赖 -->
             <dependency>
                 <groupId>log4j</groupId>
                 <artifactId>log4j</artifactId>
                 <version>1.2.17</version>
+                <scope>runtime</scope>
             </dependency>
+
             <!-- json 对象转换依赖 -->
             <dependency>
                 <groupId>org.json4s</groupId>
