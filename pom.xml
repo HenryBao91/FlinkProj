@@ -16,7 +16,7 @@
     <properties>
         <scala.version>2.11</scala.version>
         <flink.version>1.6.0</flink.version>
-        <mysql.version>8.0.16</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <redis.version>2.9.0</redis.version>
         <json4s.version>3.6.0</json4s.version>
         <fastjson.version>1.2.58</fastjson.version>
